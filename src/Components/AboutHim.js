@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div>
+    <div >
       <div className="mb-12">
         <p className=" mt-24 w-28 h-7 rounded-xl bg-slate-200 flex m-auto justify-center ">
           About me
@@ -44,7 +44,7 @@ export default function About() {
                 <li>Avid learner</li>
               </div>
             </div>
-            <p className="mt-4">
+            <p className="mt-4 mb-24">
               One last thing, I'm available for freelance work, so feel free to
               reach out and say hello! I promise I don't bite 😉
             </p>

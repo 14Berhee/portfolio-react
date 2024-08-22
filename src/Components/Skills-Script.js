@@ -2,9 +2,12 @@ export const Script = (props) => {
   const { icon, name } = props;
 
   return (
-    <div className="flex items-center flex-col  mt-6">
+ 
+    <div className="  mt-6 flex justify-center flex-col items-center  " >
       {icon}
       <p>{name}</p>
     </div>
+    
+ 
   );
 };

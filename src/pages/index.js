@@ -20,6 +20,9 @@ import Figma from "../Components/icons/Figma";
 import Cyress from "../Components/icons/Cyress";
 import Story from "../Components/icons/Story";
 import Git from "../Components/icons/Git";
+import Experience from "../Components/Experience"
+import Experience2 from "../Components/Experience2";
+
 
 const datas = [
   {
@@ -103,6 +106,32 @@ const datas = [
     name: "Git",
   },
 ];
+const experience= [
+  {
+      head:" .SrFrontend Developer",
+      li1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      li2: "Ut pretium arcu et massa semper, id fringilla leo semper.",
+      li3: "Sed quis justo ac magna.",
+      li4: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+  },
+  {
+    head:" .SrFrontend Developer",
+    li1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    li2: "Ut pretium arcu et massa semper, id fringilla leo semper.",
+    li3: "Sed quis justo ac magna.",
+    li4: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+},
+{
+  head:" .SrFrontend Developer",
+  li1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  li2: "Ut pretium arcu et massa semper, id fringilla leo semper.",
+  li3: "Sed quis justo ac magna.",
+  li4: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+},
+];
 
 export default function Portfolio() {
   return (
@@ -122,11 +151,19 @@ export default function Portfolio() {
       <div>
         <Skills></Skills>
       </div>
-      <div>
+      <div className="grid grid-cols-8 mb-24">
         {datas.map((skill) => {
           return <Script key={skill.id} icon={skill.icon} name={skill.name} />;
         })}
       </div>
+      <div>
+        <Experience></Experience>
+      </div>
+    <div className="mt-24 mb-12">
+    {experience.map((experiences)=>{
+    return <Experience2 key={experiences.head} li1={experiences.li1} li2={experiences.li2} li3={experiences.li3} li4={experiences.li4} />
+  })}
+    </div>
     </div>
   );
 }
