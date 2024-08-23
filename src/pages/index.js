@@ -23,7 +23,8 @@ import Git from "../Components/icons/Git";
 import Experience from "../Components/Experience";
 import Experience2 from "../Components/Experience2";
 import Work from "../Components/Work";
-import Workscript from "../Components/Workscript";
+import Worktool from "../Components/Workmap";
+import Mentorhub from "../Components/Mentorhub";
 
 const datas = [
   {
@@ -171,9 +172,14 @@ export default function Portfolio() {
           );
         })}
       </div>
-      <div className="mt-24">
+      <div className="mt-24 ">
         <Work></Work>
-        <Workscript></Workscript>
+      </div>
+      <div>
+        <Worktool></Worktool>
+      </div>
+      <div>
+        <Mentorhub></Mentorhub>
       </div>
     </div>
   );
