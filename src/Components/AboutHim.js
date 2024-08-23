@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div >
+    <div>
       <div className="mb-12">
         <p className=" mt-24 w-28 h-7 rounded-xl bg-slate-200 flex m-auto justify-center ">
           About me
@@ -16,21 +16,21 @@ export default function About() {
           </h1>
           <div>
             <p className="mb-4">
-              I'm a designer turned full stack developer, passionate about
+              Im a designer turned full stack developer, passionate about
               React.js and Node.js. I excel in blending technical and visual
               aspects to craft exceptional digital products, prioritizing user
               experience, precise design, and optimized code.
             </p>
             <p className="mb-4">
-              Since starting my web development journey in 2015, I've embraced
+              Since starting my web development journey in 2015, Ive embraced
               challenges and kept up with the latest tech trends. Now in my
-              early thirties, seven years in, I'm building cutting-edge web apps
+              early thirties, seven years in, Im building cutting-edge web apps
               using Next.js, TypeScript, Nestjs, Tailwindcss, Supabase, and
               more.
             </p>
             <p className="mb-4">
               With a progressive mindset, I enjoy the entire product development
-              process, from ideation to execution. Off duty, you'll find me on
+              process, from ideation to execution. Off duty, youll find me on
               Twitter, tracking startup journeys, or unwinding. Follow me for
               tech insights and public project updates on Twitter or GitHub.
             </p>
@@ -45,8 +45,8 @@ export default function About() {
               </div>
             </div>
             <p className="mt-4 mb-24">
-              One last thing, I'm available for freelance work, so feel free to
-              reach out and say hello! I promise I don't bite 😉
+              One last thing, Im available for freelance work, so feel free to
+              reach out and say hello! I promise I dont bite 😉
             </p>
           </div>
         </div>

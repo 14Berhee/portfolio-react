@@ -158,9 +158,10 @@ export default function Portfolio() {
         <Experience></Experience>
       </div>
       <div className="mt-24 mb-24">
-        {experience.map((experiences) => {
+        {experience.map((experiences, index) => {
           return (
             <Experience2
+              key={index}
               head={experiences.head}
               li1={experiences.li1}
               li2={experiences.li2}
