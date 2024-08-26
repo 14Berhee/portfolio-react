@@ -25,6 +25,9 @@ import Experience2 from "../Components/Experience2";
 import Work from "../Components/Work";
 import Worktool from "../Components/Workmap";
 import Mentorhub from "../Components/Mentorhub";
+import Toims from "../Components/Toims";
+import Footer from "../Components/Footer";
+import Footer2 from "../Components/Footer2";
 
 const datas = [
   {
@@ -134,7 +137,7 @@ const experience = [
 
 export default function Portfolio() {
   return (
-    <div className="flex flex-col border-solid border-red max-w-7xl bg-stone-400 m-auto">
+    <div className="flex flex-col border-solid box-border min-w-fit max-w-screen-[1440px] m-auto">
       <div className="flex">
         <img className="h-9 ml-32 mt-16 " src="Tom.png" />
         <Header></Header>
@@ -180,6 +183,15 @@ export default function Portfolio() {
       </div>
       <div>
         <Mentorhub></Mentorhub>
+      </div>
+      <div className="mb-24">
+        <Toims></Toims>
+      </div>
+      <div>
+        <Footer></Footer>
+      </div>
+      <div>
+        <Footer2></Footer2>
       </div>
     </div>
   );

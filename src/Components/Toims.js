@@ -11,15 +11,15 @@ const worksills = [
   "Git",
 ];
 
-const Worktool = () => {
+export default function Toims() {
   return (
-    <div className="flex justify-center">
+    <div className="flex  mt-12 justify-center">
       <div className="max-w-xl h-[480px]">
-        <img src="Picture.jpg" className="p-12 bg-[#F9FAFB] rounded-xl"></img>
+        <img src="Picture3.jpg" className="p-12 bg-[#F9FAFB] rounded-xl"></img>
       </div>
       <div className="ml-12">
         <div className="max-w-xl ">
-          <h1 className="text-xl font-semibold mb-4 h-7">UBCab</h1>
+          <h1 className="text-xl font-semibold mb-4 h-7">IToim </h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
             nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in
@@ -44,6 +44,4 @@ const Worktool = () => {
       </div>
     </div>
   );
-};
-
-export default Worktool;
+}
