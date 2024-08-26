@@ -138,13 +138,19 @@ const experience = [
 export default function Portfolio() {
   return (
     <div className="flex flex-col border-solid box-border min-w-fit max-w-screen-[1440px] m-auto">
-      <div className="flex">
-        <img className="h-9 ml-32 mt-16 " src="Tom.png" />
-        <Header></Header>
-        <img className="h-6 w-6 mt-16 ml-4" src="icon.png"></img>
-        <Button></Button>
+      <div className=" min-[375px] flex">
+        <img className="h-9 ml-32 mt-16 mr-[586px]" src="Tom.png" />
+
+        <div className="hidden sm:flex">
+          <Header></Header>
+          <img className="h-6 w-6 mt-16 ml-4" src="icon.png"></img>
+          <Button></Button>
+          <div>
+            <img src="kebab.png" className="w-6 h-6 flex "></img>
+          </div>
+        </div>
       </div>
-      <div>
+      {/* <div>
         <Hero></Hero>
       </div>
       <div>
@@ -192,7 +198,7 @@ export default function Portfolio() {
       </div>
       <div>
         <Footer2></Footer2>
-      </div>
+      </div> */}
     </div>
   );
 }
