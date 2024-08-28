@@ -1,9 +1,9 @@
 export default function Hero() {
   return (
-    <div className="mt-24 ml-32 ">
-      <div className="flex ">
-        <div className="flex flex-col">
-          <h1 className="text-6xl font-bold max-w-md">Hi, I’m Tom👋</h1> 
+    <div className="mt-24 ml-4  ">
+      <div className="flex flex-col-reverse sm: m-auto ">
+        <div className="flex flex-col sm:min-w-[343px] ">
+          <h1 className="text-6xl font-bold max-w-md ">Hi, I’m Tom👋</h1>
           <p className="max-w-xl">
             I specialize in full stack development, particularly with React.js
             and Node.js. My main goal is to create exceptional digital
@@ -12,7 +12,10 @@ export default function Hero() {
             continue to find joy in crafting innovative solutions and designs.
           </p>
         </div>
-        <img src="tompic.png" className=" ml-72 mr-28"></img>
+        <img
+          src="tompic.png"
+          className=" ml-72xl: mr-28 w-[280px]sm: h-[300px]sm: ml-[45px]sm: m-auto sm: mx-[27.5px]  "
+        ></img>
       </div>
       <div className="flex flex-col">
         <div className="flex"></div>

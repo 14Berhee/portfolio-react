@@ -1,4 +1,7 @@
+import localFont from "next/font/local";
+
 import Header from "@/Components/Pro-header";
+
 import Button from "../Components/Pro-button";
 import Hero from "../Components/Hero";
 import About from "../Components/AboutHim";
@@ -135,25 +138,38 @@ const experience = [
   },
 ];
 
+const myFont = localFont({ src: "../../public/RubikMonoOne-Regular.ttf" });
+
 export default function Portfolio() {
   return (
     <div className="flex flex-col border-solid box-border min-w-fit max-w-screen-[1440px] m-auto">
-      <div className=" min-[375px] flex">
-        <img className="h-9 ml-32 mt-16 mr-[586px]" src="Tom.png" />
-
-        <div className="hidden sm:flex">
-          <Header></Header>
-          <img className="h-6 w-6 mt-16 ml-4" src="icon.png"></img>
-          <Button></Button>
-          <div>
-            <img src="kebab.png" className="w-6 h-6 flex "></img>
+      <div className=" min-[375px] flex m-auto sm:min-w-[375px]">
+        <div className="flex items-center justify-center">
+          <div className={myFont.className}>
+            <h1
+              className="w-20 h-9 text-3xl mt-16 mr-auto xl:mr-[586px] lg:mr-[330px] md:mr-[200px] sm:mr-[100px]  ml-4 
+              "
+            >
+              TOM
+            </h1>
+          </div>
+          <div className="hidden sm:flex">
+            <Header></Header>
+            <img className="h-6 w-6 mt-[70px] ml-4" src="icon.png"></img>
+            <Button></Button>
+          </div>
+          <div className="sm:hidden ">
+            <img
+              src="kebab.png"
+              className="w-6 h-6 mt-16  mb-4 flex ml-[231px] mr-4"
+            ></img>
           </div>
         </div>
       </div>
-      {/* <div>
+      <div className="flex m-auto ">
         <Hero></Hero>
       </div>
-      <div>
+      {/* <div>
         <About></About>
       </div>
       <div>
