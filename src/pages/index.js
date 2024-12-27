@@ -1,28 +1,9 @@
-import localFont from "next/font/local";
+import { Header } from "@/Components/Pro-header";
 
-import Header from "@/Components/Pro-header";
-
-import Button from "../Components/Pro-button";
 import Hero from "../Components/Hero";
 import About from "../Components/AboutHim";
 import Skills from "../Components/Skills";
 import { Script } from "../Components/Skills-Script";
-import Javascriptsvg from "../Components/icons/Javascriptsvg";
-import Typescript from "../Components/icons/Typescript";
-import React from "../Components/icons/React";
-import Next from "../Components/icons/Next";
-import Node from "../Components/icons/Node";
-import Tech from "../Components/icons/Tech";
-import Nest from "../Components/icons/Nest";
-import Socket from "../Components/icons/Socket";
-import Postre from "../Components/icons/Postre";
-import Mongo from "../Components/icons/Mongo";
-import Sass from "../Components/icons/Sass";
-import Tail from "../Components/icons/Tail";
-import Figma from "../Components/icons/Figma";
-import Cyress from "../Components/icons/Cyress";
-import Story from "../Components/icons/Story";
-import Git from "../Components/icons/Git";
 import Experience from "../Components/Experience";
 import Experience2 from "../Components/Experience2";
 import Work from "../Components/Work";
@@ -31,89 +12,8 @@ import Mentorhub from "../Components/Mentorhub";
 import Toims from "../Components/Toims";
 import Footer from "../Components/Footer";
 import Footer2 from "../Components/Footer2";
+import Datas from "@/Components/Datas";
 
-const datas = [
-  {
-    id: 1,
-    icon: <Javascriptsvg />,
-    name: "Javascript",
-  },
-  {
-    id: 2,
-    icon: <Typescript />,
-    name: "Typescript",
-  },
-  {
-    id: 3,
-    icon: <React />,
-    name: "React",
-  },
-  {
-    id: 4,
-    icon: <Next />,
-    name: "Next",
-  },
-  {
-    id: 5,
-    icon: <Node />,
-    name: "Node.js",
-  },
-  {
-    id: 6,
-    icon: <Tech />,
-    name: "",
-  },
-  {
-    id: 7,
-    icon: <Nest />,
-    name: "Nest.js",
-  },
-  {
-    id: 8,
-    icon: <Socket />,
-    name: "Socket.io",
-  },
-  {
-    id: 9,
-    icon: <Postre />,
-    name: "PostgreSQL",
-  },
-  {
-    id: 10,
-    icon: <Mongo />,
-    name: "MongoDB",
-  },
-  {
-    id: 11,
-    icon: <Sass />,
-    name: "Sass/Scss",
-  },
-  {
-    id: 12,
-    icon: <Tail />,
-    name: "Tailwindcss",
-  },
-  {
-    id: 13,
-    icon: <Figma />,
-    name: "Figma",
-  },
-  {
-    id: 14,
-    icon: <Cyress />,
-    name: "Cypress",
-  },
-  {
-    id: 15,
-    icon: <Story />,
-    name: "Story",
-  },
-  {
-    id: 16,
-    icon: <Git />,
-    name: "Git",
-  },
-];
 const experience = [
   {
     head: " .SrFrontend Developer",
@@ -138,45 +38,27 @@ const experience = [
   },
 ];
 
-const myFont = localFont({ src: "../../public/RubikMonoOne-Regular.ttf" });
-
 export default function Portfolio() {
   return (
-    <div className="flex flex-col border-solid box-border min-w-fit max-w-screen-[1440px] m-auto">
-      <div className=" min-[375px] flex m-auto sm:min-w-[375px]">
+    <div className="flex flex-col container mx-auto sm:mx-auto">
+      <div className=" min-[375px] flex sm:min-w-[375px]">
         <div className="flex items-center justify-center">
-          <div className={myFont.className}>
-            <h1
-              className="w-20 h-9 text-3xl mt-16 mr-auto xl:mr-[586px] lg:mr-[330px] md:mr-[200px] sm:mr-[100px]  ml-4 
-              "
-            >
-              TOM
-            </h1>
-          </div>
-          <div className="hidden sm:flex">
-            <Header></Header>
-            <img className="h-6 w-6 mt-[70px] ml-4" src="icon.png"></img>
-            <Button></Button>
-          </div>
-          <div className="sm:hidden ">
-            <img
-              src="kebab.png"
-              className="w-6 h-6 mt-16  mb-4 flex ml-[231px] mr-4"
-            ></img>
+          <div>
+            <Header />
           </div>
         </div>
       </div>
       <div className="flex m-auto ">
         <Hero></Hero>
       </div>
-      {/* <div>
+      <div>
         <About></About>
       </div>
       <div>
         <Skills></Skills>
       </div>
       <div className="grid grid-cols-8 mb-24">
-        {datas.map((skill) => {
+        {Datas.map((skill) => {
           return <Script key={skill.id} icon={skill.icon} name={skill.name} />;
         })}
       </div>
@@ -214,7 +96,7 @@ export default function Portfolio() {
       </div>
       <div>
         <Footer2></Footer2>
-      </div> */}
+      </div>
     </div>
   );
 }
