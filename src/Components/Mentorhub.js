@@ -13,9 +13,9 @@ const worksills = [
 
 export default function Mentorhub() {
   return (
-    <div className="flex mt-12 justify-center">
-      <div className="flex flex-col mr-12">
-        <div className="max-w-xl">
+    <div className="flex  flex-col-reverse mt-12 sm:flex-row justify-center ">
+      <div className="flex flex-col mr-12  max-w-xl">
+        <div className=" mx-auto md:max-w-xl mt-3">
           <h1 className="text-xl font-semibold mb-4 h-7">Mentorhub</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adi piscing elit. Maecenas
@@ -36,7 +36,9 @@ export default function Mentorhub() {
               );
             })}
           </div>
-          <img src="Sum.png" className="mt-6"></img>
+          <div className="max-w-xl h-[480px] mx-auto">
+            <img src="Sum.png" className="mt-6"></img>
+          </div>
         </div>
       </div>
 

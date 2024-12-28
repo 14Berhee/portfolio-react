@@ -5,7 +5,7 @@ const myFont = localFont({ src: "../../public/RubikMonoOne-Regular.ttf" });
 
 export const Header = () => {
   return (
-    <div className="flex container mx-auto ">
+    <div className="flex justify-between sm:flex container mx-auto">
       <div className="mr-16">
         <div className={myFont.className}>
           <h1
@@ -32,7 +32,7 @@ export const Header = () => {
         </div>
       </div>
 
-      <div className="flex items-center sm:hidden">
+      <div className="flex justify-end items-center sm:hidden sm:justify-end">
         <img
           src="kebab.png"
           className="w-6 h-6 mt-16  flex ml-[231px] mr-4"

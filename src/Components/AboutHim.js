@@ -1,21 +1,26 @@
 export default function About() {
   return (
-    <div>
+    <div className="m-auto">
       <div className="mb-12">
         <p className=" mt-24 w-28 h-7 rounded-xl bg-slate-200 flex m-auto justify-center ">
           About me
         </p>
       </div>
-      <div className="flex">
+      <div className="flex flex-col sm:flex-row  ">
         <div>
-          <img src="Tom3.png" className="max-w-xl mr-48 "></img>
+          <img
+            src="aiGenerated.jpg"
+            className="max-w-xl mx-auto sm:max-w-xl sm:mr-48 "
+          ></img>
         </div>
-        <div className="font-sans max-w-xl">
-          <h1 className="max-w-lg font text-2xl h-12 font-medium">
-            Curious about me? Here you have it:
-          </h1>
+        <div className="font-sans w-full ">
           <div>
-            <p className="mb-4">
+            <h1 className=" flex justify-center font text-2xl h-12 font-medium   ">
+              Curious about me? Here you have it:
+            </h1>
+          </div>
+          <div className="flex justify-between mx-auto flex-col w-[400px] sm:justify-between sm:w-[584px]">
+            <p className="sm:mt-5 pt-5">
               Im a designer turned full stack developer, passionate about
               React.js and Node.js. I excel in blending technical and visual
               aspects to craft exceptional digital products, prioritizing user

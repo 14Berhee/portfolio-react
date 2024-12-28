@@ -7,7 +7,7 @@ import { Script } from "../Components/Skills-Script";
 import Experience from "../Components/Experience";
 import Experience2 from "../Components/Experience2";
 import Work from "../Components/Work";
-import Worktool from "../Components/Workmap";
+import Worktool from "../Components/Ubcab";
 import Mentorhub from "../Components/Mentorhub";
 import Toims from "../Components/Toims";
 import Footer from "../Components/Footer";
@@ -41,12 +41,8 @@ const experience = [
 export default function Portfolio() {
   return (
     <div className="flex flex-col container mx-auto sm:mx-auto">
-      <div className=" min-[375px] flex sm:min-w-[375px]">
-        <div className="flex items-center justify-center">
-          <div>
-            <Header />
-          </div>
-        </div>
+      <div>
+        <Header />
       </div>
       <div className="flex m-auto ">
         <Hero></Hero>
@@ -57,7 +53,7 @@ export default function Portfolio() {
       <div>
         <Skills></Skills>
       </div>
-      <div className="grid grid-cols-8 mb-24">
+      <div className="grid grid-cols-3 mb-24 sm:grid-cols-8">
         {Datas.map((skill) => {
           return <Script key={skill.id} icon={skill.icon} name={skill.name} />;
         })}
