@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <div className="mt-24 ml-4  ">
-      <div className="flex">
+      <div className="flex ">
         <div className="flex flex-col sm:flex-row items-center gap-8">
           <div className="w-[568px] h-[364px]">
             <div

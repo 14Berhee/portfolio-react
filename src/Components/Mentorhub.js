@@ -29,7 +29,7 @@ export default function Mentorhub() {
               return (
                 <p
                   key={index}
-                  className=" h-7 rounded-xl bg-slate-200 flex m-auto justify-center px-5 py-1 items-center mt-2 font-semibold text-sm  "
+                  className=" h-7 rounded-xl bg-slate-200 flex m-auto justify-center px-5 py-1 items-center mt-2 font-semibold text-sm  text-black"
                 >
                   {tool}
                 </p>

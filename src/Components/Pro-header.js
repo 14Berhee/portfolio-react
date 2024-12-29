@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import Button from "../Components/Pro-button";
+import { ThemeController } from "./ThemeController";
 
 const myFont = localFont({ src: "../../public/RubikMonoOne-Regular.ttf" });
 
@@ -17,7 +18,7 @@ export const Header = () => {
         </div>
       </div>
 
-      <div className=" hidden sm:block ">
+      <div className=" hidden sm:block  ">
         <div className="flex items-center">
           <div className=" mt-16 gap-12 ml-auto ml-30 flex xl:ml-[584px] ">
             <p>About</p>
@@ -25,8 +26,9 @@ export const Header = () => {
             <p>Testimonials</p>
             <p>Contact</p>
           </div>
-          <div className="flex">
-            <img className="h-6 w-6 mt-[70px] ml-4" src="icon.png"></img>
+          <div className="flex items-end ml-4">
+            <ThemeController />
+
             <Button></Button>
           </div>
         </div>

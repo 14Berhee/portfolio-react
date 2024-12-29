@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <div className="mt-24 flex justify-center">
       <div>
-        <p className=" mt-24 w-28 h-7 rounded-xl bg-slate-200 flex m-auto justify-center mb-4 ">
+        <p className=" mt-24 w-28 h-7 rounded-xl bg-slate-200 flex m-auto justify-center mb-4 text-black">
           Get in touch
         </p>
         <div className="flex flex-col items-center mb-12">

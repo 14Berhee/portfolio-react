@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div className="m-auto">
       <div className="mb-12">
-        <p className=" mt-24 w-28 h-7 rounded-xl bg-slate-200 flex m-auto justify-center ">
+        <p className=" mt-24 w-28 h-7 rounded-xl bg-slate-200 flex m-auto justify-center text-black ">
           About me
         </p>
       </div>
