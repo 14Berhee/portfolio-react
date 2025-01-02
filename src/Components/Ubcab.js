@@ -8,13 +8,15 @@ const workskills = [
   "Git",
 ];
 
+import Link from "next/link";
+
 const SkillList = ({ skills }) => {
   return (
-    <div className="flex flex-wrap flex-row">
+    <div className="flex flex-wrap flex-row gap-2">
       {skills.map((tool, index) => (
         <p
           key={index}
-          className="h-7 rounded-xl bg-slate-200 flex m-auto justify-center px-5 py-1 items-center mt-2 font-semibold text-sm text-black"
+          className="h-7 rounded-xl bg-slate-200 flex  px-5 py-1 items-center mt-2 font-semibold text-sm text-black "
         >
           {tool}
         </p>
@@ -31,7 +33,7 @@ const Worktool = () => {
           src="foodDelivery.png"
           alt="Work tool"
           className="p-12 bg-[#F9FAFB] rounded-xl dark:bg-slate-600"
-        /> 
+        />
       </div>
       <div className="ml-12">
         <div className="max-w-xl mt-3">
@@ -44,7 +46,10 @@ const Worktool = () => {
         </div>
         <div className="max-w-[480px] h-[120px]">
           <SkillList skills={workskills} />
-          <img src="Sum.png" alt="Summary" className="mt-6" />
+          <Link href=" https://food-rouge-five.vercel.app/">
+            {" "}
+            <img src="Sum.png" className="mt-6"></img>
+          </Link>
         </div>
       </div>
     </div>

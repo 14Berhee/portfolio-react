@@ -1,10 +1,6 @@
-const worksills = [
-  "React",
-  "Next.js",
-  "Tailwindcss",
-  "Figma",
-  "Git",
-];
+import Link from "next/link";
+
+const worksills = ["React", "Next.js", "Tailwindcss", "Figma", "Git"];
 
 export default function Mentorhub() {
   return (
@@ -32,7 +28,9 @@ export default function Mentorhub() {
             })}
           </div>
           <div className="max-w-xl h-[480px] mx-auto">
-            <img src="Sum.png" className="mt-6"></img>
+            <Link href="https://news-web-1lm2.vercel.app/">
+              <img src="Sum.png" className="mt-6"></img>
+            </Link>
           </div>
         </div>
       </div>

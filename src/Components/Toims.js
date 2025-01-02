@@ -1,10 +1,6 @@
-const worksills = [
-  "React",
-  "Next.js",
-  "Tailwindcss",
-  "Figma",
-  "Git",
-];
+import Link from "next/link";
+
+const worksills = ["React", "Next.js", "Tailwindcss", "Figma", "Git"];
 
 export default function Toims() {
   return (
@@ -34,7 +30,9 @@ export default function Toims() {
               );
             })}
           </div>
-          <img src="Sum.png" className="mt-6"></img>
+          <Link href="https://ecommerce-site-serp.vercel.app/">
+            <img src="Sum.png" className="mt-6"></img>
+          </Link>
         </div>
       </div>
     </div>
