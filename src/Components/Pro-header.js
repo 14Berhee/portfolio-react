@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import Button from "../Components/Pro-button";
 import { ThemeController } from "./ThemeController";
+import {Drawer} from "../Components/Drawer"
 
 const myFont = localFont({ src: "../../public/RubikMonoOne-Regular.ttf" });
 
@@ -28,17 +29,16 @@ export const Header = () => {
           </div>
           <div className="flex items-end ml-4">
             <ThemeController />
-
             <Button></Button>
           </div>
         </div>
       </div>
 
-      <div className="flex justify-end items-center sm:hidden sm:justify-end">
-        <img
-          src="kebab.png"
-          className="w-6 h-6 mt-16  flex ml-[231px] mr-4"
-        ></img>
+      <div className="items-end flex justify-end sm:items-center sm:hidden sm:justify-end">
+        <Drawer  src="kebab.png"
+          className="w-6 h-6 mt-16  flex ml-[231px] mr-4">
+         
+        </Drawer>
       </div>
     </div>
   );
