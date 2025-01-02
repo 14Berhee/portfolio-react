@@ -1,15 +1,11 @@
 import Next from "../Components/icons/Next";
 import Node from "../Components/icons/Node";
 import Tech from "../Components/icons/Tech";
-import Nest from "../Components/icons/Nest";
 import Socket from "../Components/icons/Socket";
 import Postre from "../Components/icons/Postre";
 import Mongo from "../Components/icons/Mongo";
-import Sass from "../Components/icons/Sass";
 import Tail from "../Components/icons/Tail";
 import Figma from "../Components/icons/Figma";
-import Cyress from "../Components/icons/Cyress";
-import Story from "../Components/icons/Story";
 import Git from "../Components/icons/Git";
 import Javascriptsvg from "../Components/icons/Javascriptsvg";
 import Typescript from "../Components/icons/Typescript";
@@ -46,11 +42,7 @@ const Datas = [
     icon: <Tech />,
     name: "",
   },
-  {
-    id: 7,
-    icon: <Nest />,
-    name: "Nest.js",
-  },
+
   {
     id: 8,
     icon: <Socket />,
@@ -66,11 +58,7 @@ const Datas = [
     icon: <Mongo />,
     name: "MongoDB",
   },
-  {
-    id: 11,
-    icon: <Sass />,
-    name: "Sass/Scss",
-  },
+
   {
     id: 12,
     icon: <Tail />,
@@ -80,16 +68,6 @@ const Datas = [
     id: 13,
     icon: <Figma />,
     name: "Figma",
-  },
-  {
-    id: 14,
-    icon: <Cyress />,
-    name: "Cypress",
-  },
-  {
-    id: 15,
-    icon: <Story />,
-    name: "Story",
   },
   {
     id: 16,

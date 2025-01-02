@@ -1,13 +1,8 @@
 const worksills = [
   "React",
   "Next.js",
-  "Typescript",
-  "Nest.js",
-  "PostgreSQL",
   "Tailwindcss",
   "Figma",
-  "Cypress",
-  "Storybook",
   "Git",
 ];
 
@@ -15,11 +10,11 @@ export default function Toims() {
   return (
     <div className="flex flex-col mt-12 justify-center  sm:flex-row">
       <div className="max-w-xl h-[480px] mx-auto ">
-        <img src="Picture3.jpg" className="p-12 bg-[#F9FAFB] rounded-xl"></img>
+        <img src="ecommerce.png" className="p-12 bg-[#F9FAFB] rounded-xl"></img>
       </div>
       <div className="ml-12">
         <div className="max-w-xl mt-3 ">
-          <h1 className="text-xl font-semibold mb-4 h-7">IToim </h1>
+          <h1 className="text-xl font-semibold mb-4 h-7">E-Commerce </h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
             nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in

@@ -18,7 +18,7 @@ export default function Experience2(props) {
             </div>
           </div>
           <div className="ml-12">
-            <p>Nov 2021 - Present</p>
+            <p>June 2024 - Present</p>
           </div>
         </div>
       </div>

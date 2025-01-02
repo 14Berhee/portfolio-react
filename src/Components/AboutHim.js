@@ -21,29 +21,28 @@ export default function About() {
           </div>
           <div className="flex justify-between mx-auto flex-col w-[400px] sm:justify-between sm:w-[584px]">
             <p className="sm:mt-5 pt-5">
-              Im a designer turned full stack developer, passionate about
-              React.js and Node.js. I excel in blending technical and visual
-              aspects to craft exceptional digital products, prioritizing user
+              Im a stack developer, passionate about
+              React.js, Javascript and Node.js. I excel in blending technical and visual
+              aspects to craft exceptional digital products, prioritizing userx
               experience, precise design, and optimized code.
             </p>
             <p className="mb-4">
-              Since starting my web development journey in 2015, Ive embraced
+              Since starting my web development journey in 2024, Ive embraced
               challenges and kept up with the latest tech trends. Now in my
-              early thirties, seven years in, Im building cutting-edge web apps
-              using Next.js, TypeScript, Nestjs, Tailwindcss, Supabase, and
+              early twenties, one year in, Im building cutting-edge web apps
+              using Next.js, TypeScript, Nestjs, Tailwindcss, MongodDB, and
               more.
             </p>
             <p className="mb-4">
               With a progressive mindset, I enjoy the entire product development
               process, from ideation to execution. Off duty, youll find me on
-              Twitter, tracking startup journeys, or unwinding. Follow me for
-              tech insights and public project updates on Twitter or GitHub.
+              Facebook Follow me for tech insights and public project updates on GitHub.
             </p>
             <p>Finally, some quick bits about me.</p>
             <div className="flex mt-4">
               <div className="flex flex-col">
                 <li className="mr-4">B.E. in Computer Engineering</li>
-                <li className="mr-4">Full time freelancer</li>
+                <li className="mr-4">Half time freelancer</li>
               </div>
               <div className="mr-3">
                 <li>Avid learner</li>

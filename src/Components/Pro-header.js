@@ -28,7 +28,9 @@ export const Header = () => {
             <p>Contact</p>
           </div>
           <div className="flex items-end ml-4">
+            <div className="mb-1">
             <ThemeController />
+            </div>
             <Button></Button>
           </div>
         </div>

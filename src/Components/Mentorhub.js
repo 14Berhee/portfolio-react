@@ -1,13 +1,8 @@
 const worksills = [
   "React",
   "Next.js",
-  "Typescript",
-  "Nest.js",
-  "PostgreSQL",
   "Tailwindcss",
   "Figma",
-  "Cypress",
-  "Storybook",
   "Git",
 ];
 
@@ -16,7 +11,7 @@ export default function Mentorhub() {
     <div className="flex  flex-col-reverse mt-12 sm:flex-row justify-center ">
       <div className="flex flex-col mr-12  max-w-xl">
         <div className=" mx-auto md:max-w-xl mt-3">
-          <h1 className="text-xl font-semibold mb-4 h-7">Mentorhub</h1>
+          <h1 className="text-xl font-semibold mb-4 h-7">Meta-blog</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adi piscing elit. Maecenas
             nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in
@@ -43,7 +38,7 @@ export default function Mentorhub() {
       </div>
 
       <div className="max-w-xl h-[480px]">
-        <img src="Picture2.jpg" className="p-12 bg-[#F9FAFB] rounded-xl"></img>
+        <img src="newsWeb.png" className="p-12 bg-[#F9FAFB] rounded-xl"></img>
       </div>
     </div>
   );

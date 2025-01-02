@@ -16,26 +16,13 @@ import Datas from "@/Components/Datas";
 
 const experience = [
   {
-    head: " .SrFrontend Developer",
+    head: " .JrFrontend Developer",
     li1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     li2: "Ut pretium arcu et massa semper, id fringilla leo semper.",
     li3: "Sed quis justo ac magna.",
     li4: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
-  {
-    head: " Team Lead",
-    li1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    li2: "Ut pretium arcu et massa semper, id fringilla leo semper.",
-    li3: "Sed quis justo ac magna.",
-    li4: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    head: " .Full Stack Developer",
-    li1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    li2: "Ut pretium arcu et massa semper, id fringilla leo semper.",
-    li3: "Sed quis justo ac magna.",
-    li4: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
+  
 ];
 
 export default function Portfolio() {

@@ -2,12 +2,9 @@ const workskills = [
   "React",
   "Next.js",
   "Typescript",
-  "Nest.js",
-  "PostgreSQL",
+  "MongoDB",
   "Tailwindcss",
   "Figma",
-  "Cypress",
-  "Storybook",
   "Git",
 ];
 
@@ -31,14 +28,14 @@ const Worktool = () => {
     <div className="flex flex-col justify-center  sm:flex-row">
       <div className="max-w-xl h-[480px] mx-auto">
         <img
-          src="Picture.jpg"
+          src="foodDelivery.png"
           alt="Work tool"
-          className="p-12 bg-[#F9FAFB] rounded-xl"
-        />
+          className="p-12 bg-[#F9FAFB] rounded-xl dark:bg-slate-600"
+        /> 
       </div>
       <div className="ml-12">
         <div className="max-w-xl mt-3">
-          <h1 className="text-xl font-semibold mb-4 h-7">UBCab</h1>
+          <h1 className="text-xl font-semibold mb-4 h-7">Food-Delivery</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
             nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in

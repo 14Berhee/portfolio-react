@@ -17,10 +17,10 @@ export default function Hero() {
           <div className="flex flex-col w-fit">
             <h1 className="text-6xl font-bold max-w-md ">Hi, I’m Berkhee👋</h1>
             <p className="max-w-xl">
-              I specialize in full stack development, particularly with React.js
+              I have been learning in full stack development, particularly with React.js
               and Node.js. My main goal is to create exceptional digital
               experiences that are fast, visually appealing, and accessible to
-              everyone. With over 7 years of experience in web development, I
+              everyone. With over 1 year of experience in web development, I
               continue to find joy in crafting innovative solutions and designs.
             </p>
           </div>
