@@ -22,7 +22,6 @@ const experience = [
     li3: "Sed quis justo ac magna.",
     li4: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
-  
 ];
 
 export default function Portfolio() {
@@ -40,7 +39,7 @@ export default function Portfolio() {
       <div>
         <Skills></Skills>
       </div>
-      <div className="grid grid-cols-3 mb-24 sm:grid-cols-8">
+      <div className="grid grid-cols-3 mb-24 sm:grid-cols-6">
         {Datas.map((skill) => {
           return <Script key={skill.id} icon={skill.icon} name={skill.name} />;
         })}
