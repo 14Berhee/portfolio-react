@@ -1,46 +1,46 @@
 import localFont from "next/font/local";
 import Button from "../Components/Pro-button";
 import { ThemeController } from "./ThemeController";
-import {Drawer} from "../Components/Drawer"
+import { Drawer } from "../Components/Drawer";
+import Link from "next/link";
 
 const myFont = localFont({ src: "../../public/RubikMonoOne-Regular.ttf" });
 
 export const Header = () => {
   return (
-    <div className="flex justify-between sm:flex container mx-auto">
-      <div className="mr-16">
+    <div className="flex justify-between items-center sm:flex-row container mx-auto px-4 sm:px-0 mt-8">
+      <div className="flex items-center">
         <div className={myFont.className}>
-          <h1
-            className="w-20 h-9 text-3xl mt-16 sm:mr-[100px]  ml-4 
-                    "
-          >
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-stone-900">
             BERKHEE
           </h1>
         </div>
       </div>
-
-      <div className=" hidden sm:block  ">
-        <div className="flex items-center">
-          <div className=" mt-16 gap-12 ml-auto ml-30 flex xl:ml-[584px] ">
-            <p>About</p>
-            <p>Work</p>
-            <p>Testimonials</p>
-            <p>Contact</p>
-          </div>
-          <div className="flex items-end ml-4">
-            <div className="mb-1">
-            <ThemeController />
-            </div>
-            <Button></Button>
-          </div>
+      <div className="hidden sm:flex items-center gap-8 ml-auto">
+        <div className="flex gap-8 text-lg font-medium text-stone-600">
+        <Link href="#about">
+            <span className="cursor-pointer hover:text-blue-600 transition-all duration-300 ease-in-out">
+              About
+            </span>
+          </Link>
+          <Link href="#work">
+            <span className="cursor-pointer hover:text-blue-600 transition-all duration-300 ease-in-out">
+              Work
+            </span>
+          </Link>
+          <Link href="#contact">
+            <span className="cursor-pointer hover:text-blue-600 transition-all duration-300 ease-in-out">
+              Contact
+            </span>
+          </Link>
+        </div>
+        <div className="flex items-center gap-4 ml-8">
+          <ThemeController />
+          <Button />
         </div>
       </div>
-
-      <div className="items-end flex justify-end sm:items-center sm:hidden sm:justify-end">
-        <Drawer  src="kebab.png"
-          className="w-6 h-6 mt-16  flex ml-[231px] mr-4">
-         
-        </Drawer>
+      <div className="sm:hidden flex items-center ml-auto">
+        <Drawer src="kebab.png" className="w-6 h-6" />
       </div>
     </div>
   );

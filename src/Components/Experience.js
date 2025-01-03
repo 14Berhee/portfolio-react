@@ -8,7 +8,6 @@ export default function Experience() {
         <p className="text-xl text-center">
           Here is a quick summary of my most recent experiences:
         </p>
-  
       </div>
     </div>
   );

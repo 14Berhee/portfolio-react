@@ -1,9 +1,10 @@
+// Work Component
 export default function Work() {
   return (
-    <div className="m-auto max-w-7xl">
+    <div className="m-auto max-w-7xl" id="work">
       <div>
-        <p className=" mt-24 w-28 h-7 rounded-xl bg-slate-200 flex m-auto justify-center mb-4 text-black">
-          Work
+        <p className="mt-24 w-28 h-7 rounded-xl bg-slate-200 flex m-auto justify-center mb-4 text-black">
+          <span>Work</span>
         </p>
         <p className="text-xl text-center mb-12">
           Some of the noteworthy projects I have built:{" "}
