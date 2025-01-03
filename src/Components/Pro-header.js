@@ -11,14 +11,14 @@ export const Header = () => {
     <div className="flex justify-between items-center sm:flex-row container mx-auto px-4 sm:px-0 mt-8">
       <div className="flex items-center">
         <div className={myFont.className}>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-stone-900">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold ">
             BERKHEE
           </h1>
         </div>
       </div>
       <div className="hidden sm:flex items-center gap-8 ml-auto">
         <div className="flex gap-8 text-lg font-medium text-stone-600">
-        <Link href="#about">
+          <Link href="#about">
             <span className="cursor-pointer hover:text-blue-600 transition-all duration-300 ease-in-out">
               About
             </span>
