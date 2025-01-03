@@ -32,7 +32,7 @@ const Worktool = () => {
         <img
           src="foodDelivery.png"
           alt="Food Delivery Project"
-          className="w-full h-[480px] object-cover rounded-xl shadow-md"
+          className="w-full h-[480px] object-cover rounded-xl shadow-md bg-no-repeat bg-cover bg-center "
         />
       </div>
 
@@ -42,8 +42,8 @@ const Worktool = () => {
         </h1>
         <p className="text-sm sm:text-base mb-4 text-center sm:text-left">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec
-          urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et
-          ultrices posuere cubilia curae.
+          urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia curae.
         </p>
         <div className="mb-6">
           <SkillList skills={workskills} />

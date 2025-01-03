@@ -26,9 +26,9 @@ export default function Mentorhub() {
             Meta-blog
           </h1>
           <p className="text-sm sm:text-base mb-4 text-center sm:text-left">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec
-            urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci
-            luctus et ultrices posuere cubilia curae.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+            nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in
+            faucibus orci luctus et ultrices posuere cubilia curae.
           </p>
         </div>
         <div className="max-w-[480px] mb-6 mx-auto">
@@ -46,7 +46,7 @@ export default function Mentorhub() {
         <img
           src="newsWeb.png"
           alt="Meta-blog"
-          className="w-full h-[480px] object-cover rounded-xl shadow-md"
+          className="w-full h-[480px] object-cover rounded-xl shadow-md bg-no-repeat bg-cover bg-center"
         />
       </div>
     </div>

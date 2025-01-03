@@ -24,7 +24,7 @@ export default function Toims() {
         <img
           src="ecommerce.png"
           alt="E-Commerce"
-          className="w-full h-[480px] object-cover rounded-xl shadow-md"
+          className="w-full h-[480px] object-cover rounded-xl shadow-md bg-no-repeat bg-cover bg-center"
         />
       </div>
       <div className="flex flex-col max-w-xl">
@@ -33,9 +33,9 @@ export default function Toims() {
             E-Commerce
           </h1>
           <p className="text-sm sm:text-base mb-4 text-center sm:text-left">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac
-            tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et
-            ultrices posuere cubilia curae.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+            nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in
+            faucibus orci luctus et ultrices posuere cubilia curae.
           </p>
         </div>
         <div className="max-w-[480px] mb-6 mx-auto sm:mx-0">
