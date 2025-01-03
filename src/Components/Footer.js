@@ -1,4 +1,11 @@
+import CopyButton from "./CopyButton";
+
+
 export default function Footer() {
+
+  const textToCopy = "Berhee14@gmail.com";
+const numberToCopy = "+976 94029797"
+
   return (
     <div className="mt-24 flex justify-center px-4 sm:px-0">
       <div id="contact" className="w-full max-w-3xl ">
@@ -13,16 +20,16 @@ export default function Footer() {
         </div>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-5 mb-8">
           <div className="flex items-center gap-3">
-            <img className="w-8 h-8" src="mail.jpg" alt="Mail icon" />
-            <h1 className="text-2xl sm:text-3xl font-semibold">Berhee14@gmail.com</h1>
-            <img className="w-8 h-8" src="copy.png" alt="Copy icon" />
+            <img className="w-8 h-8" src="mail.png" alt="Mail icon" />
+            <h1 className="text-2xl sm:text-3xl font-semibold">{textToCopy}</h1>
+            <CopyButton textToCopy={textToCopy} />
           </div>
         </div>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-5 mb-12">
           <div className="flex items-center gap-3">
-            <img className="w-8 h-8" src="Phone.jpg" alt="Phone icon" />
-            <h1 className="text-2xl sm:text-3xl font-semibold">+976 94029797</h1>
-            <img className="w-8 h-8" src="copy.png" alt="Copy icon" />
+            <img className="w-8 h-8" src="telephone.png" alt="Phone icon" />
+            <h1 className="text-2xl sm:text-3xl font-semibold">{numberToCopy}</h1>
+            <CopyButton textToCopy={numberToCopy} />
           </div>
         </div>
         <div className="flex justify-center mb-6">
