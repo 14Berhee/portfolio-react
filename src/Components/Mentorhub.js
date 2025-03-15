@@ -35,7 +35,7 @@ export default function Mentorhub() {
           <SkillList skills={worksills} />
         </div>
         <div className="flex justify-center sm:justify-start">
-          <Link href="https://news-web-1lm2.vercel.app/">
+          <Link href="https://news-web-vkol.vercel.app/">
             <span className="text-white bg-blue-600 hover:bg-blue-700 py-2 px-6 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
               View Project
             </span>
